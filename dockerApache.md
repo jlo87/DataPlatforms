@@ -5,6 +5,11 @@
 - Top users
 - Analyze sentiment and keywords
 
+The data pipeline follows the fashion of near real-time streaming, from digesting live Twitter data, to visualization. Most of the fragments to assemble the puzzle are from the Apache family.
+
+# Prerequisites
+To create this platform, you’ll need a Twitter application. Sign in with your Twitter account and create a new application at https://apps.twitter.com/. Make sure your application is set for ‘read-only’ access and then choose Create My Access Token at the bottom of the Keys and Access Tokens tab. By this point, you should have four Twitter application keys: consumer key (API key), consumer secret (API secret), access token, and access token secret.
+
 # Tools
 - [Docker](https://www.docker.com/)
 - [Apache NiFi](https://nifi.apache.org/)
