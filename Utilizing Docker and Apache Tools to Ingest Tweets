@@ -1,4 +1,20 @@
-***Ingesting Tweets with Apache NiFi, then writing from NiFi to Apache Kafka.
+Data Engineering Course: Building A Data Platform
+=================================================
+
+
+What We Want To Do
+------------------
+
+-   Twitter data to predict best time to post using the hashtag
+    datascience or ai
+
+-   Find top tweets for the day
+
+-   Top users
+
+-   Analyze sentiment and keywords
+
+Ingesting Tweets with Apache NiFi, then writing from NiFi to Apache Kafka.
 
 # TODO
 `docker run --name nifi  -p 8080:8080 -d apache/nifi:latest`
