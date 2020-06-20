@@ -40,8 +40,13 @@ Under properties, changed Kafka Brokers - `localhost:9092` to `Kafka-server:9092
 
 ## Run Apache Zeppelin
 `docker run -d -p 8081:8080 --rm \`
+
 `-v /Users/xxxx/Documents/DockerFiles/logs:/logs \`
+
 `-v /Users/xxxx/Documents/DockerFiles/Notebooks:/notebook \`
+
 `-e ZEPPELIN_LOG_DIR='/logs' \`
+
 `-e ZEPPELIN_NOTEBOOK_DIR='/notebook' \`
+
 `--network app-tier --name zeppelin apache/zeppelin:0.7.3`
